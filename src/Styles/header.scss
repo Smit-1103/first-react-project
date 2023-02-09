@@ -13,7 +13,15 @@ nav {
 
     >h1 {
         text-transform: uppercase;
-        cursor: pointer;
+        color: black;
+            margin: 1rem;
+            transition: all 0.5s;
+            cursor: pointer;
+    
+            &:hover {
+                filter: opacity(0.9);
+                color: $second;
+            }
     }
     
     >main {
